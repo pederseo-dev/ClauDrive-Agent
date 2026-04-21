@@ -1,0 +1,14 @@
+{
+  "name": "claudrive-agent",
+  "version": "0.1.0",
+  "description": "Control your PC from Claude chat via Google Drive",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "electron": "^29.0.0",
+    "googleapis": "^144.0.0"
+  }
+}
